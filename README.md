@@ -1,7 +1,7 @@
 # MCJNI
 a simple macro define help Android JNI developer write cleaner code
 
-#### #define java(type, name, ...) jni(<nspace>, type, name, __VA_ARGS__)
+#### #define java(type, name, ...) jni(nspace, type, name, __VA_ARGS__)
 
 	please add the above java() macro define into each JNI .c file
 	change the <nspace> into 'Java_packagename_classname'
