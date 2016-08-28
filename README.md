@@ -1,9 +1,10 @@
 # MCJNI
-a simple macro define help Android JNI developer write cleaner code
+a simple header file with macro define help Android JNI developer write cleaner code
 
 #### #define java(type, name, ...) jni(nspace, type, name, __VA_ARGS__)
 
-	please add the above java() macro define into each JNI .c file
+	please include the 'MCJNI.h' file into each JNI .c file
+	and add the above java() macro define into each JNI .c file
 	change the <nspace> into 'Java_packagename_classname'
 	example: 'Java_com_android_gles3jni_GLES3JNILib'
 
